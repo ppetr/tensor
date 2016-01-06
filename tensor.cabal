@@ -36,9 +36,9 @@ Library
   Build-Depends:       base                  ==4.8.*,
                        base-unicode-symbols  ==0.2.*,
                        deepseq               ==1.4.*,
-                       random                >=1.0 && < 1.2,
-                       singletons            ==1.1.*,
-                       vector                ==0.10.*
+                       random                >=1.0 && <1.2,
+                       singletons            >=1.1 && <2.1,
+                       vector                >=0.10 && <0.12
   GHC-Options:         -Wall
   Exposed-Modules:     Data.Indexable
                        Data.MultiIndex

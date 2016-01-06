@@ -1,0 +1,6 @@
+extra-deps: 
+    - cabal-test-quickcheck-0.1.6
+resolver: lts-4.0
+flags: {}
+packages:
+- '.'
